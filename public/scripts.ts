@@ -132,8 +132,6 @@ function editProfilePic() {
     cropperImage.src = img.src;
     cropperContainer.style.display = 'block';
 
-    // Initialize cropper (you can use a library like Cropper.js here for better functionality)
-    // For simplicity, this example assumes no actual cropping is done.
 }
 
 function saveCroppedImage() {
